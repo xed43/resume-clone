@@ -9,8 +9,9 @@ body {
 }
 
 .container {
+  border: 1px solid black;
   height: 90vh;
-  width: 550px;
+  width: 100%;
   padding: 20px;
   display: grid;
   text-align: left;
