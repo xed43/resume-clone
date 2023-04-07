@@ -10,7 +10,8 @@ body {
 
 .container {
   height: 90vh;
-  width: 750px;
+  width: 550px;
+  padding: 20px;
   display: grid;
   text-align: left;
   grid-template-columns: 1fr 2fr;
@@ -23,15 +24,11 @@ body {
 header {
   grid-area: header;
   padding-left: 10px;
-  border-bottom: 1px solid black;
-  background: rgb(27, 27, 27);
-  color: white;
 }
 
 main {
   grid-area: main;
   padding: 20px;
-  border-right: 1px solid black;
 }
 
 ul {
@@ -45,8 +42,6 @@ aside {
   justify-content: center;
   flex-flow: row;
   align-items: start;
-  border-right: 1px solid black;
-  background: rgb(240, 240, 240);
 }
 
 address {
