@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-  border: 1px solid black;
   height: 90vh;
   width: 100%;
   padding: 20px;
@@ -24,7 +23,7 @@ body {
 
 header {
   grid-area: header;
-  padding-left: 10px;
+  text-align: center;
 }
 
 main {
