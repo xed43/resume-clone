@@ -1,0 +1,74 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  height: 90vh;
+  width: 750px;
+  display: grid;
+  text-align: left;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "aside main";
+}
+
+header {
+  grid-area: header;
+  padding-left: 10px;
+  border-bottom: 1px solid black;
+  background: rgb(27, 27, 27);
+  color: white;
+}
+
+main {
+  grid-area: main;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+aside {
+  grid-area: aside;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  align-items: start;
+  border-right: 1px solid black;
+  background: rgb(240, 240, 240);
+}
+
+address {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  font-style: normal;
+}
+
+.phone,
+.email,
+.home {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: rgb(232, 231, 231);
+  padding: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
